@@ -1,0 +1,248 @@
+{
+	"success": true,
+	"data": [{
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Delhi to Noida from 15 April!",
+			"message": "Check back on 9 PM on Sunday, 14 April to commute to Noida at launch offer of flat \u20B959!",
+			"action": "Know More",
+			"dl": "com.shuttl://mId:16?fLat=28.412462*fLng=77.04161*tLat=28.617413*tLng=77.03191",
+			"iconUrl": "https://i.ibb.co/RNNncrR/ICON-delhi-noida-homecard.png",
+			"background": {
+				"bgColor": "",
+				"gradientStartColor": "#ffffff",
+				"gradientEndColor": "#cef3f5"
+			}
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "No Time for Breakfast?",
+			"message": "Try MTR 3 Minute Breakfast! Delicious breakfast ready in only 3 Minutes. Use code: MTRDNCR to avail 'Buy 2 Get 1' offer on 60g. T&C apply.",
+			"action": "BUY MTR",
+			"dl": "https://shop.mtrfoods.com/",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/mtr_logo.png"
+		}
+	}, {
+		"type": "ACTIVE_RIDE",
+		"data": {
+			"booking": {
+				"bookingId": "795401",
+				"tripId": -98250400,
+				"routeId": 982,
+				"boardingTime": 1554991440000,
+				"bookingTime": 1554989056679,
+				"fromLoc": "CD Chowk ",
+				"fromLocLat": 28.412462,
+				"fromLocLng": 77.04161,
+				"fromId": 3101,
+				"toLoc": "Dwarka Mor",
+				"toLocLat": 28.617413,
+				"toLocLng": 77.03191,
+				"toId": 3135,
+				"active": true,
+				"bookingType": "SCHEDULED_ONLINE_BOOKING",
+				"bookingStatus": "CONFIRMED",
+				"journeyTime": 4430000,
+				"bufferTime": 1800000,
+				"userFromName": "CD Chowk ",
+				"userFromLat": 28.412094,
+				"userFromLng": 77.042,
+				"userToName": "Dwarka Mor",
+				"userToLat": 28.617413,
+				"userToLng": 77.03191,
+				"isFirstPickupLocation": false,
+				"rebookable": true,
+				"vehicleNotAvailable": "Awaiting",
+				"boarded": false,
+				"isMorning": false,
+				"isNextDay": false,
+				"isActiveRide": false,
+				"vehicle": {
+					"boarded": false,
+					"allowDeboarding": false,
+					"deboarded": false
+				}
+			},
+			"boarded": false,
+			"boardedText": "Ongoing",
+			"noVehicleText": "Awaiting shuttl info",
+			"rideText": "Evening Ride",
+			"rideValue": "Today",
+			"stopText": "Pickup Stop",
+			"stopValue": "CD Chowk "
+		}
+	}, {
+		"type": "REBOOK",
+		"data": {
+			"booking": {
+				"bookingId": "794610",
+				"tripId": -114610500,
+				"routeId": 1146,
+				"boardingTime": 1549338240000,
+				"bookingTime": 1549295703463,
+				"fromLoc": "IndusInd Rapid Metro (Drop)",
+				"fromLocLat": 28.497616,
+				"fromLocLng": 77.08887,
+				"fromId": 8077,
+				"toLoc": "CD Chowk (Spaze ITech park) ",
+				"toLocLat": 28.412563,
+				"toLocLng": 77.04184,
+				"toId": 1843,
+				"active": false,
+				"bookingType": "SCHEDULED_ONLINE_BOOKING",
+				"bookingStatus": "RESCHEDULED",
+				"journeyTime": 1916000,
+				"bufferTime": 1800000,
+				"userFromName": "IndusInd Rapid Metro (Drop)",
+				"userFromLat": 28.497616,
+				"userFromLng": 77.08887,
+				"userToName": "CD Chowk (Spaze ITech park) ",
+				"userToLat": 28.412563,
+				"userToLng": 77.04184,
+				"isFirstPickupLocation": false,
+				"rebookable": true,
+				"vehicleNotAvailable": "Awaiting",
+				"boarded": false,
+				"isMorning": true,
+				"isNextDay": false,
+				"isActiveRide": false,
+				"vehicle": {
+					"boarded": false,
+					"allowDeboarding": false,
+					"deboarded": false
+				}
+			},
+			"rideText": "Morning Ride",
+			"rideType": "MORNING",
+			"action": "RESERVE A SEAT"
+		}
+	}, {
+		"type": "REBOOK",
+		"data": {
+			"booking": {
+				"bookingId": "795309",
+				"tripId": -24352200,
+				"routeId": 243,
+				"boardingTime": 1553697360000,
+				"bookingTime": 1553673155399,
+				"fromLoc": "CD Chowk ",
+				"fromLocLat": 28.412462,
+				"fromLocLng": 77.04161,
+				"fromId": 3101,
+				"toLoc": "Rohini West Metro Station",
+				"toLocLat": 28.715405,
+				"toLocLng": 77.114555,
+				"toId": 3209,
+				"active": false,
+				"bookingType": "SCHEDULED_ONLINE_BOOKING",
+				"bookingStatus": "CONFIRMED",
+				"journeyTime": 6367000,
+				"bufferTime": 1800000,
+				"userFromName": "CD Chowk ",
+				"userFromLat": 28.412462,
+				"userFromLng": 77.04161,
+				"userToName": "Rohini West Metro Station",
+				"userToLat": 28.715405,
+				"userToLng": 77.114555,
+				"isFirstPickupLocation": false,
+				"rebookable": true,
+				"vehicleNotAvailable": "Awaiting",
+				"boarded": false,
+				"isMorning": false,
+				"isNextDay": false,
+				"isActiveRide": false,
+				"vehicle": {
+					"boarded": false,
+					"allowDeboarding": false,
+					"deboarded": false
+				}
+			},
+			"rideText": "Evening Ride",
+			"rideType": "EVENING",
+			"action": "RESERVE A SEAT"
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "You were a superhero in 2017",
+			"message": "You made this world a better place. Take a look.",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/2017_102.png",
+			"dl": "com.shuttl://mId:2?sUrl=https://engagement.shuttl.com/yearEnd/UI/impact.html",
+			"action": "2017 IN REVIEW",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Know What You Deserve",
+			"message": "We want Shuttlrs to get ahead in their career. Know your worth and get more of what you deserve. ",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/Salary_Survey_icon.png",
+			"dl": "com.shuttl://mId:2?sUrl=https://www.surveymonkey.com/r/BN9RV59",
+			"action": "KNOW YOUR PAY SCALE",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "You Took a Wise Call",
+			"message": "No matter whether you drove a car took a metro, Shuttling is a smart choice.",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/wise_icon.png",
+			"dl": "com.shuttl://mId:2?sUrl=http://vfm-campaign.shuttl.com/index/",
+			"action": "HERE IS HOW @HOMELOCATION",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Let's act to leave a green impact @userId",
+			"message": "Every ride you take contributes to a pollution-free planet. This World Environment Day, let's take a step to make it a plastic-free one.",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/EnvironmentDay.png",
+			"dl": "com.shuttl://mId:2?sUrl=https://blog.shuttl.com/2018/06/04/this-world-environment-day-its-time-to-change-your-move/",
+			"action": "VISIT SHUTTL BLOG",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Know how it works @firstName",
+			"message": "Reserve your seat now. Pay later only if you wish to continue travelling with us @customerCare",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/alarm_clock_2.gif",
+			"dl": "com.shuttl://mId:2?url=http://explainer_firstbooking.pagedemo.co/",
+			"action": "GET STARTED",
+			"imageUrl": "",
+			"type": "GIF"
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Take your first ride via app @phoneNumber",
+			"message": "Track your Shuttl in real-time on the App",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/168x1681.png",
+			"dl": "com.shuttl://mId:7",
+			"action": "REFER NOW",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Hey @userid",
+			"message": "There ? ",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/168x1681.png",
+			"dl": "com.shuttl://mId:7",
+			"action": "CLICK HERE @USERNAME",
+			"imageUrl": ""
+		}
+	}, {
+		"type": "PROMO_LEFT",
+		"data": {
+			"title": "Valentine gift to @phoneNumber  you from us",
+			"message": "To show how much we love you, we present to you the gift of life. To open your gift click.",
+			"iconUrl": "http://shuttl-email.s3.amazonaws.com/Valentine2018_102.png",
+			"dl": "http://offers.shuttl.com/accidentalinsurance",
+			"action": "UPDATE NOW @LATESTBOOKINGID",
+			"imageUrl": ""
+		}
+	}],
+	"cached": false
+}
