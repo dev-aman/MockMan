@@ -28,9 +28,13 @@ To add new APIs Mock follow the following steps:
 
 - Open Project in any text editor which you are comfortable with(VS-Code, Sublime, PyCharm, etc.)
 - Add your response Mock JSON file to mocks. `<MOCK_JSON_FILE_NAME.json>`
-[Add screenshot]
-- Go to the `resources` directory and create a new file with an appropriate name `<File_Name>`(Can be anything except the files already present in `resources`).
-[Add screenshot]
+
+  ![Add MOCK_JSON_FILE_NAME.json file](screenshots/1.png)
+
+- Go to the `resources` directory and create a new file with an appropriate name `<File_Name.py>`(Can be anything except the files already present in `resources`).
+
+  ![Add File_Name.py file](screenshots/2.png)
+
 - Copy the following code to the newly created file and replace the `<CLASS_NAME>` with your class name and `<MOCK_JSON_FILE_NAME.json>` with your file name.
   ```python
   from flask_restful import Resource
@@ -40,6 +44,9 @@ To add new APIs Mock follow the following steps:
       def get(self):
           return FileHandler.getJSONFrom("MOCK_JSON_FILE_NAME.json")
   ```
+  
+  ![Add code to File_Name.py](screenshots/3.png)
+  
 - Go to `app.py` first import the newly added api class using the following syntax.
    ```pyhton
    from resources.<File_Name> import <Class_Name>
@@ -48,13 +55,13 @@ To add new APIs Mock follow the following steps:
   ```python
   api.add_resource(HomeCards, '/v1/yourEndPoint')
   ```
-[add screenshot]
+  
+  ![Add new route in app.py](screenshots/4.png)
 
  - Run the application by running the following command.
    ```bash
    python3 run.py
    ```
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
