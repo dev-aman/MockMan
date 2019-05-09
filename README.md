@@ -29,11 +29,11 @@ To add new APIs Mock follow the following steps:
 - Open Project in any text editor which you are comfortable with(VS-Code, Sublime, PyCharm, etc.)
 - Add your response Mock JSON file to mocks. `<MOCK_JSON_FILE_NAME.json>`
 
-  ![Add MOCK_JSON_FILE_NAME.json file](screenshots/1)
+  ![Add MOCK_JSON_FILE_NAME.json file](screenshots/1.png)
 
 - Go to the `resources` directory and create a new file with an appropriate name `<File_Name.py>`(Can be anything except the files already present in `resources`).
 
-  ![Add File_Name.py file](screenshots/2)
+  ![Add File_Name.py file](screenshots/2.png)
 
 - Copy the following code to the newly created file and replace the `<CLASS_NAME>` with your class name and `<MOCK_JSON_FILE_NAME.json>` with your file name.
   ```python
@@ -45,7 +45,7 @@ To add new APIs Mock follow the following steps:
           return FileHandler.getJSONFrom("MOCK_JSON_FILE_NAME.json")
   ```
   
-  ![Add code to File_Name.py](screenshots/3)
+  ![Add code to File_Name.py](screenshots/3.png)
   
 - Go to `app.py` first import the newly added api class using the following syntax.
    ```pyhton
@@ -56,7 +56,7 @@ To add new APIs Mock follow the following steps:
   api.add_resource(HomeCards, '/v1/yourEndPoint')
   ```
   
-  ![Add new route in app.py](screenshots/4)
+  ![Add new route in app.py](screenshots/4.png)
 
  - Run the application by running the following command.
    ```bash
