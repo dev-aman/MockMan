@@ -5,7 +5,7 @@ def create_app(config_filename):
     app.config.from_object(config_filename)
     
     from app import api_bp
-    app.register_blueprint(api_bp, url_prefix='/api')
+    app.register_blueprint(api_bp)
     return app
 
 if __name__ == "__main__":
