@@ -1,6 +1,6 @@
 from flask_restful import Resource
-import sqlite3
+from utility.FileHandler import FileHandler
 
 class HealthCheck(Resource):
     def get(self):
-        return { 'success': True, 'status': "Mocking service is live!" }
+        return FileHandler.getJSONFrom("health_check.json")
