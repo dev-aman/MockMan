@@ -50,15 +50,15 @@ def addResourceFile():
 def addMockJSONFiles():
     if not os.path.exists("mocks"):
         os.makedirs("mocks")
-    mockDirPath = "mocks/"+file_name_without_extention
-    if not os.path.exists(mockDirPath):
-        os.makedirs(mockDirPath)
+    mock_dir_path = "mocks/"+file_name_without_extention
+    if not os.path.exists(mock_dir_path):
+        os.makedirs(mock_dir_path)
     else:
-        shutil.rmtree(mockDirPath)
+        shutil.rmtree(mock_dir_path)
     try:
-        json_file_path = mockDirPath+"/"+mock_file_name
-        httpMethods = ["get", "post", "put", "delete", "patch"]
-        for method in httpMethods:            
+        json_file_path = mock_dir_path+"/"+mock_file_name
+        http_methods = ["get", "post", "put", "delete", "patch"]
+        for method in http_methods:            
             f = open(json_file_path+"_{}.json".format(method), "w+")
             f.write("{}")
             f.close()
