@@ -7,3 +7,6 @@ api = Api(api_bp)
 
 # Route
 api.add_resource(HealthCheck, '/healthCheck')
+
+from resources.UpdateMockData import UpdateMockData
+api.add_resource(UpdateMockData, '/updateMockData')
