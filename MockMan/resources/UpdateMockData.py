@@ -33,6 +33,6 @@ class UpdateMockData(Resource):
             f.write(json.dumps(json_data))
             f.close()
             return { "status": True }
-        except Exception as e:
-            print(e)
+        except Exception as exception:
+            print(exception)
             return { "status": False }
