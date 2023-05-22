@@ -1,27 +1,3 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "K96MFQ8ZWX.enterprise.tokopedia.Tokopedia",
-                "paths": [
-                    "/*"
-                ],
-                "appIDs": [
-                    "K96MFQ8ZWX.enterprise.tokopedia.Tokopedia"
-                ],
-                "components": [
-                    {
-                        "/": "/*",
-                        "comment": "Matches any URL with a path that starts with /buy/."
-                    }
-                ]
-            }
-        ]
-    },
-    "webcredentials": {
-        "apps": [
-            "K96MFQ8ZWX.enterprise.tokopedia.Tokopedia"
-        ]
-    }
+    "message": "Hi! I am MockMan helping you to serve your mock requests..."
 }
